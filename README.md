@@ -9,30 +9,31 @@
 
 </head>
 <body>
+<center>
     <h1>Student Registration Form</h1>
     <div class="main">
     <div class="col">
     <form>
 
         <h2>Enroll Yourself</h2>
-
+         
         <div >
-            <label for="name">Name: </label>
+            <label for="name">Name: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <input type="text" id="Name" placeholder="name" name="Name" class="inp">
         </div>
-
+             
         <div >
-            <label for="email">last name:</label>
+            <label for="email">last name:</label>&nbsp;&nbsp;
             <input type="text" id="last name" placeholder="surname" name="Email" class="inp">
         </div>
 
         <div>
-            <label for="website">Email id: </label>
+            <label for="website">Email id: </label>&nbsp;&nbsp;
             <input type="text" id="email id" placeholder="www.abc.com" name="email id" class="inp">
         </div>
 
         <div>
-            <label for="Image">Upload Image: </label>
+            <label for="Image">Upload Image: </label>&nbsp;
             <input type="file" id="Image" name="Image" class="custom-file-input" onchange="image(event)" class="inp">
         </div>
 
@@ -51,9 +52,9 @@
             <input name="python" type="checkbox" value="Python" id="python">  Python
             <input name="java" type="checkbox" value="Java" id="java">Java
         </div>
-
+              <br><br><br>
         <div class="btn">
-            <button type="button" id="btn" class="button">Submit</button>
+            <button type="button" id="btn" class="button">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
             <button type="clear" class="button">Clear</button>
         </div>
     </form>
@@ -69,12 +70,11 @@
 </div>
 </div>
 
-<div class="footer">
-    @Copyright <a href="https://github.com/GorrelaSupraja?tab=projects" target="_blank">Supraja G</a> 2022 - All Right Reserved
-</div>
+<p class="footer">
+    @Copyright <a href="https://github.com/akhilasinguru?tab=repositories"  target="_blank">S Akhila</a> 2023- All Right Reserved
+</p>
 
 <script src="./script.js"></script>
-
+</center>
 </body>
 </html>
-Footer
